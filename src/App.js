@@ -1,13 +1,20 @@
 import './App.css';
+import Experience from './main/Experience';
 import Sidebar from './Sidebar';
+import { useState } from 'react';
 
 function App() {
+  const [isCollapsed, setIsCollapsed] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsCollapsed(!isCollapsed);
+  };
+
   return (
     <div className="App">
-      <Sidebar />
-      <main className="content">
-        {/* <About />
-        <Skills /> */}
+      <Sidebar isCollapsed={isCollapsed} toggleSidebar={toggleSidebar} />
+      <main className={`content ${isCollapsed ? 'expanded' : ''}`}>
+        <Experience />
       </main>
     </div>
   );

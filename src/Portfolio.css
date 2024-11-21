@@ -1,18 +1,26 @@
 .sidebar {
-  width: fit-content;
+  width: 196px;
   height: 100vh;
-  position: fixed;
-  background-color: #282c34;
+  background-color: #333;
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 20px 16px;
+  padding: 20px;
+  transition: width 0.3s ease;
+}
+
+.sidebar.collapsed {
+  width: 80px;
+  padding: 8px 4px;
 }
 
 .sidebar nav{
   width: 100%;
   text-align: start;
+}
+
+.sidebar.collapsed nav{
+  text-align: center !important;
 }
 
 .sidebar nav ul {
@@ -42,6 +50,22 @@
   text-decoration: underline;
 }
 
+.sidebar.collapsed nav ul li a {
+  justify-content: center;
+  gap: 0;
+}
+
+.toggle-btn {
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: auto;
+  align-self: stretch;
+  text-align: center;
+}
+
 .nav-title{
   margin: 0 8px;
   display: flex;
@@ -65,13 +89,17 @@
   margin: auto 8px;
 }
 
+.sidebar.collapsed .profile{
+  padding-top: 16px;
+}
+
 .profile-info{
   flex: 1;
   text-align: left;
 }
 
 #profile-name{
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   margin: 4px;
 }
