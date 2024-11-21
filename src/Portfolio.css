@@ -1,0 +1,63 @@
+.sidebar {
+  width: fit-content;
+  height: 100vh;
+  position: fixed;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 16px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 10px 0;
+}
+
+.sidebar nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.profile-photo {
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: auto 8px;
+}
+
+.profile-info{
+  flex: 1;
+  text-align: left;
+}
+
+#profile-name{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 4px;
+}
+
+#profile-title{
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 200;
+  margin: 4px;
+}
