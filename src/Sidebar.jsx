@@ -52,7 +52,7 @@ function Sidebar({ isCollapsed, toggleSidebar }) {
         <ul>
           <span className='sidebar-group-title'>Contact</span>
           <li>
-            <a href="https://github.com/DiegoRojo99">
+            <a href="https://github.com/DiegoRojo99" target="_blank" rel="noreferrer">
               <FontAwesomeIcon className='sidebar-icon' icon={faGithub} />
               {
                 isCollapsed ? <></> :
@@ -61,7 +61,7 @@ function Sidebar({ isCollapsed, toggleSidebar }) {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/diego-rojo-a62229184">
+            <a href="https://www.linkedin.com/in/diego-rojo-a62229184" target="_blank" rel="noreferrer">
               <FontAwesomeIcon className='sidebar-icon' icon={faLinkedin} />
               {
                 isCollapsed ? <></> :
