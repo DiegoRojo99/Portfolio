@@ -3,7 +3,7 @@ import './Portfolio.css';
 import Avatar from './img/Avatar.jpeg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUpRightFromSquare, faBriefcase, faCode, faLayerGroup } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faCode, faLayerGroup } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Sidebar({ isCollapsed, toggleSidebar }) {

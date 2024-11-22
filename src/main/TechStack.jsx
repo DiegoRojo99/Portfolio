@@ -1,14 +1,18 @@
-function TechStack(){
-  function renderTechStackItem(){
-    return (
-      <div className="tech-stack-item">
+const techStackElements = []
 
-      </div>
-    )
-  }
+function TechStackItem(){
+  return (
+    <div className="tech-stack-item">
+      
+    </div>
+  )
+}
+
+function TechStack(){
+  
   return (
     <div id="tech-stack">
-
+      {techStackElements.map((element, index) => <TechStackItem />)}
     </div>
   )
 };
