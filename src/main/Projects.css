@@ -13,8 +13,9 @@
 .project-cover {
   margin: 4px;
   width: calc(100% - 8px);
-  height: 180px;
+  height: auto;
   border: 1px solid gray;
+  object-fit: cover; 
 }
 
 .project-title, .project-description {
@@ -47,6 +48,7 @@
   flex-direction: row;
   margin: 8px 0px;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .project-link-container {
@@ -65,7 +67,6 @@
 @media screen and (max-width: 600px) {
   .project-item{
     width: 95%;
-    height: 400px;
     border: 1px solid gray;
   }
 }
