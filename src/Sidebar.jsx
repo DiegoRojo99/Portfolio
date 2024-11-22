@@ -3,7 +3,7 @@ import './Portfolio.css';
 import Avatar from './img/Avatar.jpeg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUpRightFromSquare, faBriefcase, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUpRightFromSquare, faBriefcase, faCode, faLayerGroup } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Sidebar({ isCollapsed, toggleSidebar }) {
@@ -36,6 +36,15 @@ function Sidebar({ isCollapsed, toggleSidebar }) {
               {
                 isCollapsed ? <></> :
                 <span className='nav-title'>Projects</span>
+              }
+            </a>
+          </li>
+          <li>
+            <a href="#stack">
+              <FontAwesomeIcon className='sidebar-icon' icon={faLayerGroup} />
+              {
+                isCollapsed ? <></> :
+                <span className='nav-title'>Stack</span>
               }
             </a>
           </li>

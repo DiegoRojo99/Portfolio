@@ -1,0 +1,71 @@
+#project-grid {
+  margin: 16px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.project-item {
+  width: 400px;
+  border: 1px solid gray;
+}
+
+.project-cover {
+  margin: 4px;
+  width: calc(100% - 8px);
+  height: 180px;
+  border: 1px solid gray;
+}
+
+.project-title, .project-description {
+  margin: 8px 0;
+}
+
+.project-content {
+  margin: 8px;
+}
+
+.project-stack {
+  display: flex;
+  flex-direction: row;
+  margin: 12px 0px;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.project-stack-item {
+  border: 1px solid gray;
+  color: black;
+  background-color: #ddd;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 8px;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+  margin: 8px 0px;
+  gap: 8px;
+}
+
+.project-link-container {
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 8px;
+}
+
+.project-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .project-item{
+    width: 95%;
+    height: 400px;
+    border: 1px solid gray;
+  }
+}

@@ -1,5 +1,7 @@
 import './App.css';
 import Experience from './main/Experience';
+import Projects from './main/Projects';
+import TechStack from './main/TechStack';
 import Sidebar from './Sidebar';
 import { useState } from 'react';
 
@@ -15,6 +17,8 @@ function App() {
       <Sidebar isCollapsed={isCollapsed} toggleSidebar={toggleSidebar} />
       <main className={`content ${isCollapsed ? 'expanded' : ''}`}>
         <Experience />
+        <Projects />
+        <TechStack />
       </main>
     </div>
   );
