@@ -1,4 +1,4 @@
-import './Main.css';
+import './Experience.css';
 import Kaseya from '../img/Kaseya.png';
 import Deusto from '../img/Deusto.png';
 import Creighton from '../img/Creighton.png';
@@ -6,6 +6,7 @@ import Creighton from '../img/Creighton.png';
 function Experience(){
   return (
     <div id="experience">
+      <h1>Experience</h1>
       <div className="timeline">
         <div className="timeline-container left-timeline-container">
           <img src={Deusto} alt='Universidad de Deusto' />
