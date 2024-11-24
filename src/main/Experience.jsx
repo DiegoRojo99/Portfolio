@@ -1,7 +1,4 @@
 import './Experience.css';
-import Kaseya from '../img/Kaseya.png';
-import Deusto from '../img/Deusto.png';
-import Creighton from '../img/Creighton.png';
 
 function Experience(){
   return (
@@ -9,7 +6,7 @@ function Experience(){
       <h1>Experience</h1>
       <div className="timeline">
         <div className="timeline-container left-timeline-container">
-          <img src={Deusto} alt='Universidad de Deusto' />
+          <img src='/img/Deusto.png' alt='Universidad de Deusto' />
           <div className="timeline-text-box">
             <h2>Universidad de Deusto</h2>
             <small>2017 - 2022</small>
@@ -18,7 +15,7 @@ function Experience(){
           </div>
         </div>
         <div className="timeline-container right-timeline-container">
-          <img src={Creighton} alt='Creighton University' />
+          <img src={'/img/Creighton.png'} alt='Creighton University' />
           <div className="timeline-text-box">
             <h2>Creighton University</h2>
             <small>August 2021 - December 2021</small>
@@ -27,7 +24,7 @@ function Experience(){
           </div>
         </div>
         <div className="timeline-container left-timeline-container">
-          <img src={Kaseya} alt='Kaseya' />
+          <img src={'/img/Kaseya.png'} alt='Kaseya' />
           <div className="timeline-text-box">
             <h2>Kaseya</h2>
             <small>March 2023 - Now</small>
