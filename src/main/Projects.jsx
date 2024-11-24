@@ -77,7 +77,7 @@ function ProjectItem({project}){
 function Projects(){
 
   return (
-    <div id="projects">
+    <div className='section-name' id="projects">
       <h1>Projects</h1>
       <div id='project-grid'>
         {projects.map((project, index) => <ProjectItem project={project} key={index} />)}

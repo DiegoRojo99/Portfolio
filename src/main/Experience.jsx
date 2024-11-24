@@ -5,7 +5,7 @@ import Creighton from '../img/Creighton.png';
 
 function Experience(){
   return (
-    <div id="experience">
+    <div className='section-name' id="experience">
       <h1>Experience</h1>
       <div className="timeline">
         <div className="timeline-container left-timeline-container">
