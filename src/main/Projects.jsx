@@ -6,7 +6,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 const projects = [
   {
     name: "Park Hopper",
-    tech: ["React", "Typescript", "Javascript", "CSS"],
+    tech: ["React", "Typescript", "Javascript", "Node.js", "CSS", "MySQL", "Firebase"],
     website: "https://parkhopper.live",
     github: "https://github.com/DiegoRojo99/park-hopper-frontend",
     description: 'A web application that allows a user to keep track of theme park attractions waiting times and set up alerts.',
@@ -14,7 +14,7 @@ const projects = [
   },
   {
     name: "Casted",
-    tech: ["React", "Typescript", "Javascript", "CSS"],
+    tech: ["React", "Typescript", "CSS"],
     website: "https://movie-guessing-game.netlify.app",
     github: "https://github.com/DiegoRojo99/movie-guessing-game",
     description: 'A website game where you have to guess the movie based on the cast.',
