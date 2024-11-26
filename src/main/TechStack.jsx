@@ -1,20 +1,20 @@
 import './TechStack.css';
 
 const mainTechStack = [
-  { name: "React.js", image: 'React.png' },
+  { name: "React", image: 'React.png' },
   { name: "Typescript", image: 'Typescript.png' },
   { name: "Javascript", image: 'Javascript.png' },
   { name: "Node.js", image: 'Node.jpeg' },
-  // { name: "React.js", image: 'React.png' },
-  // { name: "React.js", image: 'React.png' }
+  { name: "MySQL", image: 'MySQL.png' },
+  { name: "PostgreSQL", image: 'Postgresql.png' },
+  { name: "CSS", image: 'CSS.png' },
+  { name: "HTML", image: 'HTML.png' }
 ]
 
 const otherTechStack = [
   { name: "Java", image: 'Java.png' },
-  // { name: "React.js", image: 'React.png' },
-  // { name: "React.js", image: 'React.png' },
-  // { name: "React.js", image: 'React.png' },
-  // { name: "React.js", image: 'Kaseya.png' }
+  { name: "Firebase", image: 'Firebase.png' },
+  { name: "Python", image: 'Python.png' }
 ]
 
 function TechStackItem({element}){
