@@ -51,8 +51,10 @@ function ProjectItem({project}){
         <div className='project-links'>
           { project.website ? 
             <div className='project-link-container'>
-              <FontAwesomeIcon className='project-icon' icon={faGithub} />
-              <a className='project-link' href={project.github} target="_blank" rel="noreferrer">GitHub</a>
+              <a className='project-link' href={project.github} target="_blank" rel="noreferrer">
+                <FontAwesomeIcon className='project-icon' icon={faGithub} />
+                <span>GitHub</span>
+              </a>
             </div> 
           : 
             <></>
@@ -60,8 +62,10 @@ function ProjectItem({project}){
 
           { project.github ? 
             <div className='project-link-container'>
-              <FontAwesomeIcon className='project-icon' icon={faGlobe} />
-              <a className='project-link' href={project.website} target="_blank" rel="noreferrer">Website</a>
+              <a className='project-link' href={project.website} target="_blank" rel="noreferrer">
+                <FontAwesomeIcon className='project-icon' icon={faGlobe} />
+                <span>Website</span>
+              </a>
 
             </div> 
           : 
