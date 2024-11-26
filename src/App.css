@@ -8,10 +8,10 @@ html, body, #root, .App {
   font-family: Arial, sans-serif;
   height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .content {
-  flex-grow: 1;
   background: linear-gradient(180deg, #105040 0%, #051218 100%);
   color: white;
   overflow-y: auto;
