@@ -1,6 +1,5 @@
 import React from 'react';
 import './Portfolio.css';
-import Avatar from './img/Avatar.jpeg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase, faCode, faLayerGroup } from '@fortawesome/free-solid-svg-icons';
@@ -10,7 +9,7 @@ function Sidebar({ isCollapsed, toggleSidebar }) {
   return (
     <aside className={`sidebar ${isCollapsed ? 'collapsed' : 'expanded'}`}>
       <div className="profile">
-        <img src={Avatar} alt="Diego Rojo" className="profile-photo" />
+        <img src={'/img/Avatar.jpeg'} alt="Diego Rojo" className="profile-photo" />
         {
           isCollapsed ? <></> :
           <div className='profile-info'>

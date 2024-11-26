@@ -13,12 +13,15 @@ html, body, #root, .App {
 
 .content {
   flex-grow: 1;
-  padding: 20px;
-  background-color: #222;
+  background: linear-gradient(180deg, #105040 0%, #051218 100%);
   color: white;
   overflow-y: auto;
 }
 
 .content.expanded nav{
   width: 80px;
+}
+
+.section-name {
+  padding: 20px;;
 }

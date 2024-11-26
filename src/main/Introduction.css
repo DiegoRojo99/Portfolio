@@ -1,0 +1,59 @@
+
+#introduction {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(7, 25, 21);
+}
+
+#intro-info {
+  flex: 3;
+  padding: 64px;
+}
+
+#intro-photo-container {
+  flex: 1;
+}
+
+#intro-photo {
+  height: 480px;
+  padding: 32px;
+}
+
+.intro-info-text {
+  margin: 16px 0;
+}
+
+.intro-links {
+  display: flex;
+  gap: 16px;
+}
+
+.intro-link-container {
+  border: 1px solid green;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.link-icon {
+  width: 32px;
+  height: 32px;
+  color: white;
+}
+
+.green {
+  color: green;
+}
+
+.green-button {
+  margin: 16px 0;
+  padding: 12px 24px;
+  background-color: green;
+  color: white;
+  border: 1px solid darkgreen;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#intro-description p{
+  margin: 8px 0;
+}
