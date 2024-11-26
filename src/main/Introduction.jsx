@@ -31,7 +31,9 @@ export default function Introduction(){
             </a>
           </div>
         </div>
-        <button className='green-button'>Download CV</button>
+        <a href="/Diego_Rojo_CV.pdf" download className="green-button">
+          Download CV
+        </a>
       </div>
       <div id="intro-photo-container">
         <img id="intro-photo" src={'/img/AvatarWithNoBackground.png'} alt="Diego Rojo" />

@@ -8,6 +8,8 @@
 #intro-info {
   flex: 3;
   padding: 64px;
+  display: flex;
+  flex-direction: column;
 }
 
 #intro-photo-container {
@@ -52,6 +54,8 @@
   border: 1px solid darkgreen;
   border-radius: 8px;
   cursor: pointer;
+  width: fit-content;
+  text-decoration: none;
 }
 
 #intro-description p{
