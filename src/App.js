@@ -1,6 +1,7 @@
 import './App.css';
 import Separator from './extras/Separator';
 import Experience from './main/Experience';
+import Footer from './main/Footer';
 import Introduction from './main/Introduction';
 import Projects from './main/Projects';
 import TechStack from './main/TechStack';
@@ -26,6 +27,7 @@ function App() {
         <Projects />
         <TechStack />
       </main>
+      <Footer />
     </div>
   );
 }
