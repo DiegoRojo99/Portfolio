@@ -1,19 +1,27 @@
 #project-grid {
-  margin: 16px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  justify-content: center;
+  padding: 20px;
 }
 
 .project-item {
-  width: 400px;
-  border: 1px solid gray;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
 }
 
 .project-cover {
   margin: 4px;
   width: calc(100% - 8px);
-  height: auto;
+  height: 180px;
   border: 1px solid gray;
   object-fit: cover; 
 }
@@ -62,11 +70,4 @@
   color: white;
   text-decoration: none;
   margin-left: 8px;
-}
-
-@media screen and (max-width: 600px) {
-  .project-item{
-    width: 95%;
-    border: 1px solid gray;
-  }
 }
