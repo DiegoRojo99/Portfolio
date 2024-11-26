@@ -57,3 +57,55 @@
 #intro-description p{
   margin: 8px 0;
 }
+
+@media screen and (max-width: 900px) {
+  #intro-photo-container {
+    padding: 8px;
+    display: flex;
+    justify-content: center;    
+  }
+  #intro-photo {
+    height: 320px;
+    padding: 16px;
+  }
+
+  #intro-info {
+    padding: 16px 8px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #intro-photo-container {
+    padding: 8px;
+    display: flex;
+    justify-content: center;    
+  }
+  #intro-photo {
+    height: 240px;
+    margin: auto;
+    padding: 8px;
+  }
+  #intro-info {
+    padding: 8px 4px;
+  }
+  #intro-info h1{
+    font-size: 24px;
+  }
+  #intro-info h3{
+    font-size: 16px;
+  }
+  #intro-description {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #introduction {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  #intro-photo-container {
+    padding-bottom: 0;
+  }
+}
