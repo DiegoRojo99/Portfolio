@@ -3,7 +3,7 @@ import Separator from './extras/Separator';
 import Experience from './main/Experience';
 import Footer from './main/Footer';
 import Introduction from './main/Introduction';
-import Nav from './main/Nav';
+// import Nav from './main/Nav';
 import Projects from './main/Projects';
 import TechStack from './main/TechStack';
 
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <Nav />
+      {/* <Nav /> */}
       <main className="content">
         <Introduction />
         <Separator text={separatorText} />
