@@ -39,7 +39,7 @@
   color: black;
   position: relative;
   border-radius: 6px;
-  font-size: 15px;
+  font-size: 16px;
   z-index: 1;
 }
 
@@ -92,7 +92,19 @@
 
 .timeline-text-box small {
   display: inline-block;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
+}
+
+.timeline-text-box p {
+  margin-bottom: 8px;
+}
+
+.timeline-text-box li {
+  margin-left: 8px;
+}
+
+.bold-text {
+  font-weight: 600;
 }
 
 .left-timeline-container-arrow {
@@ -130,11 +142,11 @@
     padding-left: 80px;
     padding-right: 25px;
   }
-  .timeline-text-box {
-    font-size: 13px;
+  .timeline-text-box p{
+    font-size: 16px;
   }
   .timeline-text-box small {
-    font-size: 10px;
+    font-size: 12px;
   }
   .right-timeline-container {
     left: 0;
@@ -162,15 +174,17 @@
     padding-right: 25px;
   }
   .timeline-text-box {
-    padding: 4px;
-    font-size: 10px;
+    padding: 8px;
     width: fit-content;
   }
   .timeline-text-box h2 {
-    font-size: 14px;
+    font-size: 18px;
   }
   .timeline-text-box small {
-    font-size: 8px;
+    font-size: 10px;
+  }
+  .timeline-text-box p {
+    font-size: 12px;
   }
   .right-timeline-container {
     left: 0;

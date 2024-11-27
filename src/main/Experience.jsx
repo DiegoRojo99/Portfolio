@@ -10,7 +10,12 @@ function Experience(){
           <div className="timeline-text-box">
             <h2>Universidad de Deusto</h2>
             <small>2017 - 2022</small>
-            <p>Obtained computer engineering degree at the Universidad de Deusto in Bilbao, Spain.</p>
+            <p>
+              Obtained computer engineering degree at the Universidad de Deusto in Bilbao, Spain.
+            </p>
+            <p>            
+              Main tech stack was Java for different projects and HTML, Javascript and CSS for web development.
+            </p>
             <span className="left-timeline-container-arrow"></span>
           </div>
         </div>
@@ -19,7 +24,8 @@ function Experience(){
           <div className="timeline-text-box">
             <h2>Creighton University</h2>
             <small>August 2021 - December 2021</small>
-            <p>Exchange semester at Creighton University in Omaha, NE in the United States.</p>
+            <p>Exchange semester at Creighton University in Omaha, NE.</p>
+            <p>Different programming oriented courses including languages like Python, R, PHP and HTML.</p>
             <span className="right-timeline-container-arrow"></span>
           </div>
         </div>
@@ -28,7 +34,15 @@ function Experience(){
           <div className="timeline-text-box">
             <h2>Kaseya</h2>
             <small>March 2023 - Now</small>
-            <p>Junior Software Engineer working on a data-driven internal tool to streamline and enhance the R&D department's workflows, enabling efficient access to critical metrics and trends.</p>
+            <p>Junior Software Engineer working on a data-driven internal tool to streamline and enhance the R&D department's workflow.</p>
+            <p>Main tech stack is:</p>
+            <p>              
+              <ul>
+                <li><span className='bold-text'>Frontend:</span> React, HTML and CSS</li>
+                <li><span className='bold-text'>Backend:</span> Typescript, Node.js, Express.js and Prisma</li>
+                <li><span className='bold-text'>Database:</span> PostgreSQL</li>
+              </ul>
+            </p>
             <span className="left-timeline-container-arrow"></span>
           </div>
         </div>
