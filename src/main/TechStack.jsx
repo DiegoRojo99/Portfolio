@@ -8,13 +8,17 @@ const mainTechStack = [
   { name: "MySQL", image: 'MySQL.png' },
   { name: "PostgreSQL", image: 'Postgresql.png' },
   { name: "CSS", image: 'CSS.png' },
-  { name: "HTML", image: 'HTML.png' }
+  { name: "HTML", image: 'HTML.png' },
+  { name: "Prisma", image: 'Prisma.png' },
+  { name: "Express.js", image: 'Express.png' },
 ]
 
 const otherTechStack = [
   { name: "Java", image: 'Java.png' },
   { name: "Firebase", image: 'Firebase.png' },
-  { name: "Python", image: 'Python.png' }
+  { name: "Python", image: 'Python.png' },
+  { name: "R", image: 'R.jpeg' },
+  { name: "PHP", image: 'PHP.png' },
 ]
 
 function TechStackItem({element}){
