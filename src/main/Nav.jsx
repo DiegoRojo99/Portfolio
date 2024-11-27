@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Nav.css';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faBriefcase, faCode, faLayerGroup } from '@fortawesome/free-solid-svg-icons';
 
 export default function Nav() {
