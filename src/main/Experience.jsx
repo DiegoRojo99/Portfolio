@@ -39,8 +39,8 @@ function Experience(){
             <p>              
               <ul>
                 <li><span className='bold-text'>Frontend:</span> React, HTML and CSS</li>
-                <li><span className='bold-text'>Backend:</span> Typescript, Node.js, Express.js and Prisma</li>
-                <li><span className='bold-text'>Database:</span> PostgreSQL</li>
+                <li><span className='bold-text'>Backend:</span> Typescript, Node.js and Express.js</li>
+                <li><span className='bold-text'>Database:</span> PostgreSQL with Prisma ORM</li>
               </ul>
             </p>
             <span className="left-timeline-container-arrow"></span>

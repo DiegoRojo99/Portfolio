@@ -3,9 +3,8 @@ import Separator from './extras/Separator';
 import Experience from './main/Experience';
 import Footer from './main/Footer';
 import Introduction from './main/Introduction';
-// import Nav from './main/Nav';
 import Projects from './main/Projects';
-import TechStack from './main/TechStack';
+import Skills from './main/Skills';
 
 function App() {
 
@@ -24,7 +23,7 @@ function App() {
         <Separator text={separatorText} />
         <Experience />
         <Projects />
-        <TechStack />
+        <Skills />
       </main>
       <Footer />
     </div>

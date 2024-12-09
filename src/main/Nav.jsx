@@ -20,7 +20,7 @@ export default function Nav() {
             </a>
           </li>
           <li>
-            <a href="#tech-stack">
+            <a href="#skills">
               <FontAwesomeIcon className="nav-icon" icon={faLayerGroup} />
               <span className="nav-title">Stack</span>
             </a>

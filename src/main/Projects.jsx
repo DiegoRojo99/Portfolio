@@ -30,7 +30,7 @@ const projects = [
   }
 ];
 
-function ProjectTechStackItem({item}){
+function ProjectSkillsItem({item}){
   return (
     <div className='project-stack-item'>
       <span className='project-stack-name'>{item}</span>
@@ -46,7 +46,7 @@ function ProjectItem({project}){
         <h3 className='project-title'>{project.name}</h3>
         <span className='project-description'>{project.description}</span>
         <div className='project-stack'>
-          {project.tech.map((item, index) => <ProjectTechStackItem item={item}/>)}
+          {project.tech.map((item, index) => <ProjectSkillsItem item={item}/>)}
         </div>
         <div className='project-links'>
           { project.website ? 
