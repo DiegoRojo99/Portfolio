@@ -36,13 +36,11 @@ function Experience(){
             <small>March 2023 - Now</small>
             <p>Junior Software Engineer working on a data-driven internal tool to streamline and enhance the R&D department's workflow.</p>
             <p>Main tech stack is:</p>
-            <p>              
-              <ul>
-                <li><span className='bold-text'>Frontend:</span> React, HTML and CSS</li>
-                <li><span className='bold-text'>Backend:</span> Typescript, Node.js and Express.js</li>
-                <li><span className='bold-text'>Database:</span> PostgreSQL with Prisma ORM</li>
-              </ul>
-            </p>
+            <ul>
+              <li><span className='bold-text'>Frontend:</span> React, HTML and CSS</li>
+              <li><span className='bold-text'>Backend:</span> Typescript, Node.js and Express.js</li>
+              <li><span className='bold-text'>Database:</span> PostgreSQL with Prisma ORM</li>
+            </ul>
             <span className="left-timeline-container-arrow"></span>
           </div>
         </div>

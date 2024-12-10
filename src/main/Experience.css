@@ -99,6 +99,10 @@
   margin-bottom: 8px;
 }
 
+.timeline-text-box ul {
+  margin-bottom: 8px;
+}
+
 .timeline-text-box li {
   margin-left: 8px;
 }
@@ -184,6 +188,9 @@
     font-size: 10px;
   }
   .timeline-text-box p {
+    font-size: 12px;
+  }
+  .timeline-text-box ul {
     font-size: 12px;
   }
   .right-timeline-container {
