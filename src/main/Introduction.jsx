@@ -36,7 +36,7 @@ export default function Introduction(){
         </a>
       </div>
       <div id="intro-photo-container">
-        <img id="intro-photo" src={'/img/AvatarWithNoBackground.png'} alt="Diego Rojo" />
+        <img rel="preload" id="intro-photo" src={'/img/AvatarWithNoBackground.png'} alt="Diego Rojo" />
       </div>
     </div>
   )
