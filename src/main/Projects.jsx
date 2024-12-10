@@ -6,10 +6,10 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 const projects = [
   {
     name: "Park Hopper",
-    tech: ["React", "Typescript", "Javascript", "Node.js", "CSS", "MySQL", "Firebase"],
+    tech: ["React", "Typescript", "Javascript", "Node.js", "CSS", "MySQL", "Firebase", "Express.js"],
     website: "https://parkhopper.live",
     github: "https://github.com/DiegoRojo99/park-hopper-frontend",
-    description: 'A web application that allows a user to keep track of theme park attractions waiting times and set up alerts.',
+    description: 'Allows a user to keep track of theme park attractions waiting times and set up alerts.',
     image: 'ParkHopper.png'
   },
   {
@@ -17,17 +17,25 @@ const projects = [
     tech: ["React", "Typescript", "CSS"],
     website: "https://movie-guessing-game.netlify.app",
     github: "https://github.com/DiegoRojo99/movie-guessing-game",
-    description: 'A website game where you have to guess the movie based on the cast.',
+    description: 'Game where you have to guess the movie based on the cast.',
     image: 'Casted.png'
+  },
+  {
+    name: "Play Hive",
+    tech: ["Typescript", "React", "CSS", "Node.js", "Express.js", "PostgreSQL", "Prisma"],
+    website: "https://play-hive.vercel.app/",
+    github: "https://github.com/DiegoRojo99/Play-Hive",
+    description: 'Your ultimate companion for tracking and enhancing your gaming experience.',
+    image: 'PlayHive.png'
   },
   {
     name: "The Football Feed",
     tech: ["React", "Javascript", "CSS"],
     website: "https://the-football-feed.netlify.app/",
     github: "https://github.com/DiegoRojo99/The-Football-Feed ",
-    description: 'A web application to see football highlights.',
+    description: 'Your place to find the latest football highlights.',
     image: 'TheFootballFeed.png'
-  }
+  },
 ];
 
 function ProjectSkillsItem({item}){
@@ -46,7 +54,7 @@ function ProjectItem({project}){
         <h3 className='project-title'>{project.name}</h3>
         <span className='project-description'>{project.description}</span>
         <div className='project-stack'>
-          {project.tech.map((item, index) => <ProjectSkillsItem item={item}/>)}
+          {project.tech.map((item, index) => <ProjectSkillsItem key={`${project.name}-${index}`} item={item}/>)}
         </div>
         <div className='project-links'>
           { project.website ? 
@@ -66,7 +74,6 @@ function ProjectItem({project}){
                 <FontAwesomeIcon className='project-icon' icon={faGlobe} />
                 <span>Website</span>
               </a>
-
             </div> 
           : 
             <></>
