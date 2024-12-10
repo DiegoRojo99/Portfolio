@@ -36,11 +36,11 @@ function Skills(){
       <h1>Skills</h1>
       <h4>Main Tech Stack</h4>
       <div className="skills-grid">
-        {mainSkills.map((element, index) => <SkillItem element={element} />)}
+        {mainSkills.map((element, index) => <SkillItem key={element.name} element={element} />)}
       </div>
       <h4>Other Knowledge</h4>
       <div className="skills-grid">
-        {otherSkills.map((element, index) => <SkillItem element={element} />)}
+        {otherSkills.map((element, index) => <SkillItem key={element.name} element={element} />)}
       </div>
       <h4>Languages</h4>
       <div className="skills-grid">
