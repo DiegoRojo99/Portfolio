@@ -9,10 +9,10 @@ export default function Footer(){
         <p>© 2024 Diego Rojo. All rights reserved.</p>
         <p>Built with React and CSS</p>
         <div className="social-links">
-          <a href="https://github.com/DiegoRojo99" target="_blank" rel="noreferrer">
+          <a href="https://github.com/DiegoRojo99" target="_blank" rel="noreferrer" aria-label="Check my GitHub">
             <FontAwesomeIcon className='link-icon' icon={faGithub} />
           </a>
-          <a href="https://linkedin.com/in/diego-rojo-a62229184" target="_blank" rel="noreferrer">
+          <a href="https://linkedin.com/in/diego-rojo-a62229184" target="_blank" rel="noreferrer" aria-label="Check my LinkedIn">
             <FontAwesomeIcon className='link-icon' icon={faLinkedin} />
           </a>
         </div>

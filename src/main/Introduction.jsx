@@ -21,17 +21,17 @@ export default function Introduction(){
         </div>
         <div className="intro-links">
           <div className="intro-link-container">
-            <a href="https://github.com/DiegoRojo99" target="_blank" rel="noreferrer">
+            <a href="https://github.com/DiegoRojo99" target="_blank" rel="noreferrer" aria-label="Check my GitHub">
               <FontAwesomeIcon className='link-icon' icon={faGithub} />
             </a>
           </div>
           <div className="intro-link-container">
-            <a href="https://www.linkedin.com/in/diego-rojo-a62229184" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/diego-rojo-a62229184" target="_blank" rel="noreferrer" aria-label="Check my LinkedIn">
               <FontAwesomeIcon className='link-icon' icon={faLinkedin} />
             </a>
           </div>
         </div>
-        <a href="/Diego_Rojo_CV.pdf" download className="green-button">
+        <a href="/Diego_Rojo_CV.pdf" download className="green-button" aria-label="Download my CV">
           Download CV
         </a>
       </div>
