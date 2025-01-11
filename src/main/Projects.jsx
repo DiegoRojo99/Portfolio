@@ -13,12 +13,12 @@ const projects = [
     image: 'ParkHopper.png'
   },
   {
-    name: "Casted",
+    name: "The Blockbuster Arena",
     tech: ["React", "Typescript", "CSS"],
-    website: "https://movie-guessing-game.netlify.app",
-    github: "https://github.com/DiegoRojo99/movie-guessing-game",
-    description: 'Game where you have to guess the movie based on the cast.',
-    image: 'Casted.png'
+    website: "https://the-blockbuster-arena.netlify.app/",
+    github: "https://github.com/DiegoRojo99/The-Blockbuster-Arena",
+    description: 'Different movie based games including guessing movies and actors based on hints.',
+    image: 'TheBlockbusterArena.png'
   },
   {
     name: "Play Hive",
