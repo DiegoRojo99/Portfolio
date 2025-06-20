@@ -11,7 +11,7 @@ function App() {
   let separatorText = `
     Hi, I'm Diego Rojo | 
     Born in Logroño, Spain | 
-    Live in Dundalk, Ireland | 
+    Living in Gavá, Spain | 
     Full-Stack Web Developer
   `;
 
