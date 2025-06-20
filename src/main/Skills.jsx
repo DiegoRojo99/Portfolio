@@ -1,24 +1,24 @@
 import './Skills.css';
 
 const mainSkills = [
-  { name: "React", image: 'React.png' },
-  { name: "Typescript", image: 'Typescript.png' },
-  { name: "Javascript", image: 'Javascript.png' },
-  { name: "Node.js", image: 'Node.png' },
-  { name: "MySQL", image: 'MySQL.png' },
-  { name: "PostgreSQL", image: 'Postgresql.png' },
-  { name: "CSS", image: 'CSS.svg' },
-  { name: "HTML", image: 'HTML.png' },
-  { name: "Prisma", image: 'Prisma.png' },
-  { name: "Express.js", image: 'Express.png' },
+  { name: "React", image: 'skills/React.png' },
+  { name: "Typescript", image: 'skills/Typescript.png' },
+  { name: "Javascript", image: 'skills/Javascript.png' },
+  { name: "Node.js", image: 'skills/Node.png' },
+  { name: "MySQL", image: 'skills/MySQL.png' },
+  { name: "PostgreSQL", image: 'skills/Postgresql.png' },
+  { name: "CSS", image: 'skills/CSS.svg' },
+  { name: "HTML", image: 'skills/HTML.png' },
+  { name: "Prisma", image: 'skills/Prisma.png' },
+  { name: "Express.js", image: 'skills/Express.png' },
 ]
 
 const otherSkills = [
-  { name: "Java", image: 'Java.png' },
-  { name: "Firebase", image: 'Firebase.png' },
-  { name: "Python", image: 'Python.png' },
-  { name: "R", image: 'R.png' },
-  { name: "PHP", image: 'PHP.png' },
+  { name: "Java", image: 'skills/Java.png' },
+  { name: "Firebase", image: 'skills/Firebase.png' },
+  { name: "Python", image: 'skills/Python.png' },
+  { name: "R", image: 'skills/R.png' },
+  { name: "PHP", image: 'skills/PHP.png' },
 ]
 
 function SkillItem({element}){
