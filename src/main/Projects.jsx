@@ -7,7 +7,7 @@ const projects = [
   {
     name: "Park Hopper",
     tech: ["React", "Typescript", "Javascript", "Node.js", "CSS", "MySQL", "Firebase", "Express.js"],
-    website: "https://parkhopper.live",
+    // website: "https://parkhopper.live",
     github: "https://github.com/DiegoRojo99/park-hopper-frontend",
     description: 'Allows a user to keep track of theme park attractions waiting times and set up alerts.',
     image: 'ParkHopper.png'
@@ -57,7 +57,7 @@ function ProjectItem({project}){
           {project.tech.map((item, index) => <ProjectSkillsItem key={`${project.name}-${index}`} item={item}/>)}
         </div>
         <div className='project-links'>
-          { project.website ? 
+          { project.github ? 
             <div className='project-link-container'>
               <a className='project-link' href={project.github} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon className='project-icon' icon={faGithub} />
@@ -68,7 +68,7 @@ function ProjectItem({project}){
             <></>
           }
 
-          { project.github ? 
+          { project.website ? 
             <div className='project-link-container'>
               <a className='project-link' href={project.website} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon className='project-icon' icon={faGlobe} />
