@@ -33,7 +33,7 @@ function Experience(){
           <img src={'/img/Kaseya.png'} alt='Kaseya' />
           <div className="timeline-text-box">
             <h2>Kaseya</h2>
-            <small>March 2023 - Now</small>
+            <small>March 2023 - February 2025</small>
             <p>Junior Software Engineer working on a data-driven internal tool to streamline and enhance the R&D department's workflow.</p>
             <p>Main tech stack is:</p>
             <ul>
@@ -42,6 +42,21 @@ function Experience(){
               <li><span className='bold-text'>Database:</span> PostgreSQL with Prisma ORM</li>
             </ul>
             <span className="left-timeline-container-arrow"></span>
+          </div>
+        </div>
+        <div className="timeline-container right-timeline-container">
+          <img src={'/img/EarthRoverWhite.png'} alt='Earth Rover' style={{ width: '40px', height: '40px' }} />
+          <div className="timeline-text-box">
+            <h2>Earth Rover</h2>
+            <small>March 2025 - Present</small>
+            <p>Full stack developer in full charge of the development of the main web application.</p>
+            <p>Main tech stack is:</p>
+            <ul>
+              <li><span className='bold-text'>Frontend:</span> HTML, JS and CSS</li>
+              <li><span className='bold-text'>Backend:</span> Python</li>
+              <li><span className='bold-text'>Database:</span> PostgreSQL</li>
+            </ul>
+            <span className="right-timeline-container-arrow"></span>
           </div>
         </div>
       </div>
