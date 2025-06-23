@@ -5,6 +5,7 @@ const mainSkills = [
   { name: "Typescript", image: 'skills/Typescript.png' },
   { name: "Javascript", image: 'skills/Javascript.png' },
   { name: "Node.js", image: 'skills/Node.png' },
+  { name: "Next.js", image: 'skills/next-js.png' },
   { name: "MySQL", image: 'skills/MySQL.png' },
   { name: "PostgreSQL", image: 'skills/Postgresql.png' },
   { name: "CSS", image: 'skills/CSS.svg' },
