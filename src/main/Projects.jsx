@@ -13,6 +13,14 @@ const projects = [
     image: 'ParkHopper.png'
   },
   {
+    name: 'The Match Diary',
+    tech: ["Next.js", "React", "Typescript", "CSS", "Node.js", "Express.js", "PostgreSQL", "Prisma"],
+    website: "https://the-match-diary.vercel.app/",
+    github: "https://github.com/DiegoRojo99/The-Match-Diary",
+    description: 'A platform to track all your football visits.',
+    image: 'TheMatchDiary.png'
+  },
+  {
     name: "The Blockbuster Arena",
     tech: ["React", "Typescript", "CSS"],
     website: "https://the-blockbuster-arena.netlify.app/",
