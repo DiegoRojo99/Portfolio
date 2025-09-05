@@ -13,8 +13,7 @@
   border-radius: 10px;
   box-sizing: border-box;
   text-align: center;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 1), 
-              0 0 4px rgba(0, 0, 0, 1);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 1), 0 0 2px rgba(0, 0, 0, 1);
 }
 
 .project-item:hover {
