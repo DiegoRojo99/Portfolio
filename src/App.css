@@ -24,3 +24,8 @@ html, body, #root, .App {
 .section-name {
   padding: 20px;;
 }
+
+.contrast {
+  background: linear-gradient(180deg, #232526 0%, #0f2027 100%);
+  color: #fff;
+}
