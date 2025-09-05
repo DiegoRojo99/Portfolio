@@ -63,6 +63,7 @@ function TimelineItem({item, index}) {
         <small>{item.date}</small>
         <p>{item.description}</p>
         <p>{item.techStack}</p>
+        <span className={index % 2 === 0 ? 'left-timeline-container-arrow' : 'right-timeline-container-arrow'}></span>
       </div>
     </div>
   )
