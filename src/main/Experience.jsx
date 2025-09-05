@@ -49,7 +49,7 @@ function Experience(){
           <div className="timeline-text-box">
             <h2>Earth Rover</h2>
             <small>March 2025 - Present</small>
-            <p>Full stack developer in full charge of the development of the main web application.</p>
+            <p>Full stack developer in full charge of the development of the main web application used to interact with the agricultural robots.</p>
             <p>Main tech stack is:</p>
             <ul>
               <li><span className='bold-text'>Frontend:</span> HTML, JS and CSS</li>
