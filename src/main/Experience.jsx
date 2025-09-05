@@ -36,15 +36,27 @@ function Experience(){
     <div className='section-name' id="experience">
       <h1>Experience</h1>
       <div className="timeline">
-        {timeline.map((item, index) => <TimelineItem key={`${item.title}-${index}`} item={item} index={index} />)}
+        {timeline.map((item, index) => (
+          <TimelineItem key={`${item.title}-${index}`} item={item} index={index} />
+        ))}
       </div>
+      <style>
+        {`
+          .timeline::after {
+            animation-duration: ${timeline.length * 1.5}s;
+          }
+        `}
+      </style>
     </div>
   )
 };
 
 function TimelineItem({item, index}) {
   return (
-    <div className={`timeline-container ${index % 2 === 0 ? 'left-timeline-container' : 'right-timeline-container'}`}>
+    <div 
+      className={`timeline-container ${index % 2 === 0 ? 'left-timeline-container' : 'right-timeline-container'}`}
+      style={{ animationDelay: `${index * 1.5}s` }}
+    >
       <img src={item.image} alt={item.title} style={{ width: '40px', height: '40px' }} />
       <div className="timeline-text-box">
         <h2>{item.title}</h2>
