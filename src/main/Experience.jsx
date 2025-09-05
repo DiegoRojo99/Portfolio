@@ -1,64 +1,56 @@
 import './Experience.css';
 
 function Experience(){
+  const timeline = [
+    {
+      image: '/img/Deusto.png',
+      title: 'Universidad de Deusto',
+      date: '2017 - 2022',
+      description: 'Obtained computer engineering degree at the Universidad de Deusto in Bilbao, Spain.',
+      techStack: 'Main tech stack was Java for different projects and HTML, Javascript and CSS for web development.'
+    },
+    {
+      image: '/img/Creighton.png',
+      title: 'Creighton University',
+      date: 'August 2021 - December 2021',
+      description: 'Exchange semester at Creighton University in Omaha, NE.',
+      techStack: 'Different programming oriented courses including languages like Python, R, PHP and HTML.'
+    },
+    {
+      image: '/img/Kaseya.png',
+      title: 'Kaseya',
+      date: 'March 2023 - February 2025',
+      description: "Junior Software Engineer working on a data-driven internal tool to streamline and enhance the R&D department's workflow.",
+      techStack: 'Main tech stack is: Frontend: React, HTML and CSS; Backend: Typescript, Node.js and Express.js; Database: PostgreSQL with Prisma ORM.'
+    },
+    {
+      image: '/img/EarthRoverWhite.png',
+      title: 'Earth Rover',
+      date: 'March 2025 - Present',
+      description: 'Full stack developer in full charge of the development of the main web application used to interact with the agricultural robots.',
+      techStack: 'Main tech stack is: Frontend: HTML, JS and CSS; Backend: Python; Database: PostgreSQL.'
+    }
+  ];
+
   return (
     <div className='section-name' id="experience">
       <h1>Experience</h1>
       <div className="timeline">
-        <div className="timeline-container left-timeline-container">
-          <img src='/img/Deusto.png' alt='Universidad de Deusto' />
-          <div className="timeline-text-box">
-            <h2>Universidad de Deusto</h2>
-            <small>2017 - 2022</small>
-            <p>
-              Obtained computer engineering degree at the Universidad de Deusto in Bilbao, Spain.
-            </p>
-            <p>            
-              Main tech stack was Java for different projects and HTML, Javascript and CSS for web development.
-            </p>
-            <span className="left-timeline-container-arrow"></span>
-          </div>
-        </div>
-        <div className="timeline-container right-timeline-container">
-          <img src={'/img/Creighton.png'} alt='Creighton University' />
-          <div className="timeline-text-box">
-            <h2>Creighton University</h2>
-            <small>August 2021 - December 2021</small>
-            <p>Exchange semester at Creighton University in Omaha, NE.</p>
-            <p>Different programming oriented courses including languages like Python, R, PHP and HTML.</p>
-            <span className="right-timeline-container-arrow"></span>
-          </div>
-        </div>
-        <div className="timeline-container left-timeline-container">
-          <img src={'/img/Kaseya.png'} alt='Kaseya' />
-          <div className="timeline-text-box">
-            <h2>Kaseya</h2>
-            <small>March 2023 - February 2025</small>
-            <p>Junior Software Engineer working on a data-driven internal tool to streamline and enhance the R&D department's workflow.</p>
-            <p>Main tech stack is:</p>
-            <ul>
-              <li><span className='bold-text'>Frontend:</span> React, HTML and CSS</li>
-              <li><span className='bold-text'>Backend:</span> Typescript, Node.js and Express.js</li>
-              <li><span className='bold-text'>Database:</span> PostgreSQL with Prisma ORM</li>
-            </ul>
-            <span className="left-timeline-container-arrow"></span>
-          </div>
-        </div>
-        <div className="timeline-container right-timeline-container">
-          <img src={'/img/EarthRoverWhite.png'} alt='Earth Rover' style={{ width: '40px', height: '40px' }} />
-          <div className="timeline-text-box">
-            <h2>Earth Rover</h2>
-            <small>March 2025 - Present</small>
-            <p>Full stack developer in full charge of the development of the main web application used to interact with the agricultural robots.</p>
-            <p>Main tech stack is:</p>
-            <ul>
-              <li><span className='bold-text'>Frontend:</span> HTML, JS and CSS</li>
-              <li><span className='bold-text'>Backend:</span> Python</li>
-              <li><span className='bold-text'>Database:</span> PostgreSQL</li>
-            </ul>
-            <span className="right-timeline-container-arrow"></span>
-          </div>
-        </div>
+        {timeline.map((item, index) => <TimelineItem key={`${item.title}-${index}`} item={item} index={index} />)}
+      </div>
+    </div>
+  )
+};
+
+function TimelineItem({item, index}) {
+  return (
+    <div className={`timeline-container ${index % 2 === 0 ? 'left-timeline-container' : 'right-timeline-container'}`}>
+      <img src={item.image} alt={item.title} style={{ width: '40px', height: '40px' }} />
+      <div className="timeline-text-box">
+        <h2>{item.title}</h2>
+        <small>{item.date}</small>
+        <p>{item.description}</p>
+        <p>{item.techStack}</p>
       </div>
     </div>
   )
