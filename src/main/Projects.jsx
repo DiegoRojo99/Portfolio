@@ -28,14 +28,14 @@ const projects = [
   //   description: 'A platform to track all your football visits.',
   //   image: 'TheMatchDiary.png'
   // },
-  // {
-  //   name: "The Blockbuster Arena",
-  //   tech: ["React", "Typescript", "CSS"],
-  //   website: "https://the-blockbuster-arena.netlify.app/",
-  //   github: "https://github.com/DiegoRojo99/The-Blockbuster-Arena",
-  //   description: 'Different movie based games including guessing movies and actors based on hints.',
-  //   image: 'TheBlockbusterArena.png'
-  // },
+  {
+    name: "The Blockbuster Arena",
+    tech: ["Vite", "React", "Typescript", "CSS"],
+    website: "https://the-blockbuster-arena.vercel.app/",
+    github: "https://github.com/DiegoRojo99/the-blockbuster-arena",
+    description: 'Different movie based games including guessing movies and actors based on hints.',
+    image: 'TheBlockbusterArena.png'
+  },
   {
     name: "Play Hive",
     tech: ["Typescript", "React", "Vite", "CSS", "Node.js", "Express.js"],
