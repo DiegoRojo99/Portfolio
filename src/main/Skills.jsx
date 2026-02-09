@@ -53,12 +53,12 @@ function Skills(){
         <div className="skills-item">
           <img className='flag' alt="English" src={`/img/English.png`} />  
           <p className='skills-name'>English</p>
-          <p className='language-title'>C1</p>
+          <p className='language-title'>Fluent</p>
         </div>
         <div className="skills-item">
           <img className='flag' alt="French" src={`/img/French.png`} />
           <p className='skills-name'>French</p>
-          <p className='language-title'>A2</p>
+          <p className='language-title'>Basic</p>
         </div>
       </div>
     </div>
